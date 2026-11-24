@@ -1,6 +1,6 @@
 # DCE Educ — en ligne
 
-**Ouvrir l'application : https://jpa31000.github.io/DCE_Educ/**
+**Ouvrir l'application : https://jpa31000.github.io/DCE_EDUC/**
 
 Outil pédagogique pour l'étude d'un dossier de consultation des entreprises (DCE), en Bac Pro et BTS du bâtiment.
 La maquette numérique IFC du projet est associée, famille d'ouvrages par famille d'ouvrages, aux ouvrages et
