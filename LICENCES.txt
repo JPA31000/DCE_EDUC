@@ -1,0 +1,5 @@
+DCE Educ — logiciel pédagogique (Jean-Philippe Amat). Bibliothèques libres embarquées :
+- three.js r170 — licence MIT — https://threejs.org
+- PDFium — licences BSD 3 clauses et Apache 2.0 — https://pdfium.googlesource.com/pdfium/
+- @embedpdf/pdfium (compilation WebAssembly de PDFium) — licence MIT — https://www.embedpdf.com
+- Electron (version bureau) — licence MIT — https://www.electronjs.org
