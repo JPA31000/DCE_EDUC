@@ -173,7 +173,10 @@ ul.doc{margin:4px 0 8px;padding-left:18px;color:var(--ink2);font-size:12.5px} ul
 @media (max-width:820px){
   #tabs button{padding:8px 7px 10px;font-size:12px} .brand .proj{display:none}
   #tools{width:auto;right:var(--gr);top:auto;height:42%} #insp{left:var(--gl);width:auto;top:auto;bottom:12px;max-height:50%;z-index:5}
-  #legend{display:none} #v-plans .side,#v-reglages .side,#v-ecrits .side,#v-assoc .side{position:static;width:auto;max-height:40%} #planHost,#visHost,#ecritsMain,#coupeHost,#assocHost{left:var(--gl)} #assocHost{right:var(--gr);bottom:45%} #assocCard{left:var(--gl);width:auto;top:56%}
+  #legend{display:none} #v-plans .side,#v-reglages .side,#v-ecrits .side,#v-assoc .side{position:static;width:auto;max-height:40%} #planHost,#visHost,#ecritsMain,#coupeHost,#assocHost{left:var(--gl)}
+  /* associations en fenêtre étroite : liste, maquette, fiche, l'une sous l'autre */
+  #v-assoc .side{position:absolute;left:var(--gl);right:var(--gr);top:12px;bottom:auto;height:30%;width:auto;max-height:none}
+  #assocHost{right:var(--gr);top:calc(30% + 20px);bottom:auto;height:28%} #assocCard{left:var(--gl);right:var(--gr);width:auto;top:calc(58% + 28px);bottom:12px}
 }
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 </style>
